@@ -16,7 +16,7 @@ class _FormState extends State<FormPage> {
   final _telpController = TextEditingController();
   final _alamatController = TextEditingController();
 
-  var url = "https://tubes-pbm-d6a78-default-rtdb.asia-southeast1.firebasedatabase.app/" + "data.json";
+  var url = "https://tubes-pbm-2-default-rtdb.asia-southeast1.firebasedatabase.app/" + "data.json";
 
   void _submitForm() async {
     try {

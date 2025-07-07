@@ -18,7 +18,7 @@ class _TableState extends State<TablePage> {
   List<Map<String, dynamic>> list = [];
 
   Future<void> _get() async {
-    var url = "https://tubes-pbm-d6a78-default-rtdb.asia-southeast1.firebasedatabase.app/" + "data.json"; // Keep "data.json" as it is
+    var url = "https://tubes-pbm-2-default-rtdb.asia-southeast1.firebasedatabase.app/" + "data.json"; // Keep "data.json" as it is
 
     try {
       final response = await http.get(Uri.parse(url));
